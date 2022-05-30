@@ -16,6 +16,7 @@
 		531874DC28452848008469C9 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531874DB28452848008469C9 /* UpcomingViewController.swift */; };
 		531874DE28452894008469C9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531874DD28452894008469C9 /* SearchViewController.swift */; };
 		531874E0284528B6008469C9 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531874DF284528B6008469C9 /* DownloadsViewController.swift */; };
+		531874E828454541008469C9 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531874E728454541008469C9 /* CollectionViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		531874DB28452848008469C9 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		531874DD28452894008469C9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		531874DF284528B6008469C9 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		531874E728454541008469C9 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +64,15 @@
 		531874C328450B0A008469C9 /* NetClone */ = {
 			isa = PBXGroup;
 			children = (
+				531874E62845439E008469C9 /* Managers */,
+				531874E528454394008469C9 /* Resources */,
+				531874E2284542F9008469C9 /* Models */,
+				531874E1284542E8008469C9 /* Views */,
+				531874E328454306008469C9 /* ViewModels */,
+				531874D82845265D008469C9 /* Controllers */,
 				531874C428450B0A008469C9 /* AppDelegate.swift */,
 				531874C628450B0A008469C9 /* SceneDelegate.swift */,
 				531874C828450B0A008469C9 /* MainTabBarViewController.swift */,
-				531874D82845265D008469C9 /* Controllers */,
 				531874CD28450B0D008469C9 /* Assets.xcassets */,
 				531874CF28450B0D008469C9 /* LaunchScreen.storyboard */,
 				531874D228450B0D008469C9 /* Info.plist */,
@@ -82,6 +89,42 @@
 				531874DF284528B6008469C9 /* DownloadsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		531874E1284542E8008469C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				531874E728454541008469C9 /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		531874E2284542F9008469C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		531874E328454306008469C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		531874E528454394008469C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		531874E62845439E008469C9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +199,7 @@
 			files = (
 				531874DE28452894008469C9 /* SearchViewController.swift in Sources */,
 				531874C928450B0A008469C9 /* MainTabBarViewController.swift in Sources */,
+				531874E828454541008469C9 /* CollectionViewTableViewCell.swift in Sources */,
 				531874E0284528B6008469C9 /* DownloadsViewController.swift in Sources */,
 				531874C528450B0A008469C9 /* AppDelegate.swift in Sources */,
 				531874C728450B0A008469C9 /* SceneDelegate.swift in Sources */,
