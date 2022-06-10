@@ -17,6 +17,7 @@
 		531874DE28452894008469C9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531874DD28452894008469C9 /* SearchViewController.swift */; };
 		531874E0284528B6008469C9 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531874DF284528B6008469C9 /* DownloadsViewController.swift */; };
 		531874E828454541008469C9 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531874E728454541008469C9 /* CollectionViewTableViewCell.swift */; };
+		53330F342853BCF2009F28D2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53330F332853BCF2009F28D2 /* Extensions.swift */; };
 		53B624D82851186600362232 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B624D72851186600362232 /* APICaller.swift */; };
 		53B624DA28512AF400362232 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B624D928512AF400362232 /* Movies.swift */; };
 		53E6FF06284A7B7300E1B781 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E6FF05284A7B7300E1B781 /* HeroHeaderUIView.swift */; };
@@ -35,6 +36,7 @@
 		531874DD28452894008469C9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		531874DF284528B6008469C9 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		531874E728454541008469C9 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		53330F332853BCF2009F28D2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		53B624D72851186600362232 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		53B624D928512AF400362232 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		53E6FF05284A7B7300E1B781 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		531874E528454394008469C9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				53330F332853BCF2009F28D2 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				53B624D82851186600362232 /* APICaller.swift in Sources */,
 				53E6FF06284A7B7300E1B781 /* HeroHeaderUIView.swift in Sources */,
 				531874E0284528B6008469C9 /* DownloadsViewController.swift in Sources */,
+				53330F342853BCF2009F28D2 /* Extensions.swift in Sources */,
 				531874C528450B0A008469C9 /* AppDelegate.swift in Sources */,
 				531874C728450B0A008469C9 /* SceneDelegate.swift in Sources */,
 				531874DC28452848008469C9 /* UpcomingViewController.swift in Sources */,
