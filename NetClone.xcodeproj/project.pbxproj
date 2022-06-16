@@ -26,6 +26,7 @@
 		53BE182B285511800074CC42 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 53BE182A285511800074CC42 /* SDWebImageMapKit */; };
 		53C57432285623DE0055FBD5 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C57431285623DE0055FBD5 /* TitleTableViewCell.swift */; };
 		53C57434285628670055FBD5 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C57433285628670055FBD5 /* TitleViewModel.swift */; };
+		53C670CF285BB82100082907 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C670CE285BB82100082907 /* YoutubeSearchResponse.swift */; };
 		53E6FF06284A7B7300E1B781 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E6FF05284A7B7300E1B781 /* HeroHeaderUIView.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		53BE182528550F4D0074CC42 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		53C57431285623DE0055FBD5 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		53C57433285628670055FBD5 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		53C670CE285BB82100082907 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		53E6FF05284A7B7300E1B781 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				53B624D928512AF400362232 /* Title.swift */,
+				53C670CE285BB82100082907 /* YoutubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				531874E0284528B6008469C9 /* DownloadsViewController.swift in Sources */,
 				534145D428590B72005A0538 /* SearchResultsViewController.swift in Sources */,
 				53330F342853BCF2009F28D2 /* Extensions.swift in Sources */,
+				53C670CF285BB82100082907 /* YoutubeSearchResponse.swift in Sources */,
 				531874C528450B0A008469C9 /* AppDelegate.swift in Sources */,
 				531874C728450B0A008469C9 /* SceneDelegate.swift in Sources */,
 				531874DC28452848008469C9 /* UpcomingViewController.swift in Sources */,
