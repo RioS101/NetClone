@@ -27,6 +27,7 @@
 		53C57432285623DE0055FBD5 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C57431285623DE0055FBD5 /* TitleTableViewCell.swift */; };
 		53C57434285628670055FBD5 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C57433285628670055FBD5 /* TitleViewModel.swift */; };
 		53C670CF285BB82100082907 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C670CE285BB82100082907 /* YoutubeSearchResponse.swift */; };
+		53C670D1285BC06C00082907 /* ResourcesLinksForThisTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C670D0285BC06C00082907 /* ResourcesLinksForThisTutorial.swift */; };
 		53E6FF06284A7B7300E1B781 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E6FF05284A7B7300E1B781 /* HeroHeaderUIView.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		53C57431285623DE0055FBD5 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		53C57433285628670055FBD5 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		53C670CE285BB82100082907 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		53C670D0285BC06C00082907 /* ResourcesLinksForThisTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesLinksForThisTutorial.swift; sourceTree = "<group>"; };
 		53E6FF05284A7B7300E1B781 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 		531874C328450B0A008469C9 /* NetClone */ = {
 			isa = PBXGroup;
 			children = (
+				53C670D0285BC06C00082907 /* ResourcesLinksForThisTutorial.swift */,
 				531874E62845439E008469C9 /* Managers */,
 				531874E528454394008469C9 /* Resources */,
 				531874E2284542F9008469C9 /* Models */,
@@ -262,6 +265,7 @@
 				531874E0284528B6008469C9 /* DownloadsViewController.swift in Sources */,
 				534145D428590B72005A0538 /* SearchResultsViewController.swift in Sources */,
 				53330F342853BCF2009F28D2 /* Extensions.swift in Sources */,
+				53C670D1285BC06C00082907 /* ResourcesLinksForThisTutorial.swift in Sources */,
 				53C670CF285BB82100082907 /* YoutubeSearchResponse.swift in Sources */,
 				531874C528450B0A008469C9 /* AppDelegate.swift in Sources */,
 				531874C728450B0A008469C9 /* SceneDelegate.swift in Sources */,
